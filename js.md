@@ -151,3 +151,102 @@ function square(number) {<br>
 An array in JavaScript is a special variable that can store multiple values in a single variable.
 
 Think of it like a list or a box with compartments — each compartment stores one item, and you can access them by their position 
+
+### let,const \& var
+
+var( The old way) before ES6: Variable can be re- declared \& updated. a global scope variable.
+
+let( Modern way) ES6+ : Variable cannot be re - declared but can be updated. A block scope variable . 
+
+const( Constant value): Variable cannot be re- declared or updated. A block scope variable
+
+<hr>
+1\. Primitive Data Types
+
+Primitive data types are the built-in data types provided by JavaScript.
+
+1\. Number:
+
+Number data type in JavaScript can be used to hold decimal values as well as values without decimals.
+
+Example: Below is an example.
+
+let x = 250;
+
+2\. String:
+
+The string data type in JavaScript represents a sequence of characters that are surrounded by single or double quotes.
+
+Example: Below is an example.
+
+let fullname= "Shivani"
+
+3\. Undefined:
+
+This means that a variable has been declared but has not been assigned a value, or it has been explicitly set to the value `undefined`.
+
+Example: Below is an example.
+
+let x;
+
+console.log(x); // Outputs: undefined
+
+4\. Boolean:
+
+The boolean data type can accept only two values i.e. true and false.
+
+Example: Below is an example.
+
+isFollow = true;
+
+5.Null:
+
+This data type can hold only one possible value that is null.
+
+Example: Below is an example.
+
+let x = null;
+
+6\. BigInt:
+
+BigInt data type can represent numbers greater than 253-1 which helps to perform operations on large numbers. The number is specified by writing 'n' at the end of the value
+
+Example: Below is an example.
+
+let x = BigInt("123");
+
+7\. Symbol:
+
+Symbol data type is used to create objects which will always be unique. these objects can be created using Symbol constructor.
+
+Example:
+
+let y = Symbol*(*Hello!);
+
+
+
+2\. Non-Primitive datatype
+
+1. objects :
+
+Collection of data
+
+It is stored as key:value
+
+ex :
+
+{ name: "ashok"
+
+age:24}
+
+note: let ko update kar sakte h
+
+const ko nhi kar sakte
+
+const ke object ke key ko update kar sakte h
+
+
+
+
+
+
