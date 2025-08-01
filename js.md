@@ -263,8 +263,132 @@ for (let i=10; i<=30; i++) {
 }
 
 #### 3.
-let fruits = ["apple", "banana", "mango", "grape", "orange"];
+`let fruits = ["apple", "banana", "mango", "grape", "orange"];`
 
-for (let fruit of fruits) {<br>
-  console.log(fruit.toUpperCase());<br>
+`for (let fruit of fruits) {<br>`
+  `console.log(fruit.toUpperCase());<br>`
+`}`
+
+#### 4.
+`function getCube(num) {`<br>
+ ` return num * num * num;`<br>
+`}`
+
+#### 5.
+`const getCube = (num) => {`<br>
+ ` return num * num * num;`<br>
+`};`
+
+#### 6.
+`let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];`<br>
+
+`let doubledNumbers = numbers.map(function(num) {`<br>
+ ` return num * 2;`
+`});`
+
+`console.log(doubledNumbers);`
+
+#### 7.
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let greaterThanFive = numbers.filter(function(num) {<br>
+  return num > 5;
+});<br>
+
+console.log(greaterThanFive);
+
+#### 8.
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let firstDivisibleBy3 = numbers.find(function(num) {<br>
+  return num % 3 === 0;<br>
+});
+
+console.log(firstDivisibleBy3);
+
+#### 9.
+
+let names = ["Alice", "Bob", "Charlie", "David", "Eve"];
+
+
+names.push("Frank");
+
+names.splice(1, 1);
+
+console.log(names);
+
+#### 10.
+function isEven(n) {<br>
+  return n % 2 === 0;<br>
+}
+#### 11
+let i = 5;
+
+while (i >= 1) {<br>
+  console.log(i);<br>
+  i--;<br>
+}
+#### 12
+let monthNumber = 3; // You can change this number (1 to 12)
+
+switch (monthNumber) {<br>
+  case 1:<br>
+    console.log("January");<br>
+    break;<br>
+  case 2:<br>
+    console.log("February");<br>
+    break;<br>
+  case 3:<br>
+    console.log("March");<br>
+    break;<br>
+  case 4:<br>
+    console.log("April");<br>
+    break;<br>
+  case 5:<br>
+    console.log("May");<br>
+    break;<br>
+  case 6:<br>
+    console.log("June");<br>
+    break;<br>
+  case 7:<br>
+    console.log("July");<br>
+    break;<br>
+  case 8:<br>
+    console.log("August");<br>
+    break;<br>
+  case 9:<br>
+    console.log("September");<br>
+    break;<br>
+  case 10:<br>
+    console.log("October");<br>
+    break;<br>
+  case 11:<br>
+    console.log("November");<br>
+    break;<br>
+  case 12:<br>
+    console.log("December");<br>
+    break;<br>
+  default:<br>
+    console.log("Invalid month number");<br>
+    }
+
+##### 13.
+let a;<br>
+console.log(a + 5);
+
+#### 14.
+let message = "Hello, world!";
+
+console.log(message.length);
+
+#### 15.
+function sumUpTo(n) {<br>
+  let sum = 0;
+  
+  for (let i = 1; i <= n; i++) {<br>
+    sum += i; <br>
+  }
+
+  return sum;<br>
 }
