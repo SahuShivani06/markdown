@@ -245,8 +245,26 @@ const ko nhi kar sakte
 
 const ke object ke key ko update kar sakte h
 
+# Js assignment
 
+#### 1. Declare a variable named marks with a value of 85. Use a ternary operator to assign 'Pass' or 'Fail' to a new variable result based on whether marks is 40 or more.
 
+let marks = 85
 
+let result = marks >= 40? "pass" : "fail";
+console.log(result);
 
+#### 2. Write a for loop that prints all *even numbers* between 10 and 30 (inclusive).
 
+for (let i=10; i<=30; i++) {
+  if(i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+#### 3.
+let fruits = ["apple", "banana", "mango", "grape", "orange"];
+
+for (let fruit of fruits) {<br>
+  console.log(fruit.toUpperCase());<br>
+}
